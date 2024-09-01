@@ -2,7 +2,7 @@
 class Person {
 	constructor(name,age){
 		this.personname = name;
-		this.age = age;
+		this.personage = age;
 	}
 
 	get name(){
@@ -10,7 +10,7 @@ class Person {
 	}
 
 	set age(value){
-		this.age = value;
+		this.personage = value;
 	}
 }
 
