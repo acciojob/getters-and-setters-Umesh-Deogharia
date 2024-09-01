@@ -1,16 +1,16 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.personname = name;
-		this.personage = age;
+		this._name = name;
+		this._age = age;
 	}
 
 	get name(){
-		return this.personname;
+		return this._name;
 	}
 
 	set age(value){
-		this.personage = value;
+		this._age = value;
 	}
 }
 
